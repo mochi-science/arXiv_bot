@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "arxiv-bot"
+version = "0.1.0"
+description = ""
+authors = ["sugimochi <tashinoki.1019@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+pandas = "^2.2.2"
+arxiv = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
