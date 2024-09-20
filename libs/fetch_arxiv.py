@@ -3,7 +3,7 @@ import arxiv
 import pandas as pd
 import os
 
-def fetch_papers_from_arxiv(search_query=None, max_results=3, csv_filename = "datas/arxiv_papers.csv"):
+def fetch_papers_from_arxiv(search_query=None, max_results=3, csv_filename = "datas/arxiv_papers.csv") -> pd.DataFrame:
     """
     arXiv APIを使用して論文を取得し、CSVファイルに保存する関数
 
