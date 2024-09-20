@@ -14,6 +14,7 @@ def main():
     df_papers = fetch_papers_from_arxiv()
     if df_papers.empty:
         send_message_to_discord(f"## {today} 新しい論文はありませんでした。", webhookurl)
+        return
 
     # OpenAI APIを使用して論文の要約を取得
     key = json.load(open("openai_apikey.json"))["KEY"]
