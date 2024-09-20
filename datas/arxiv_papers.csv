@@ -1,0 +1,161 @@
+Title,Authors,Published,URL,Abstract,PDF,Theme
+To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning,"Zayne Sprague, Fangcong Yin, Juan Diego Rodriguez, Dongwei Jiang, Manya Wadhwa, Prasann Singhal, Xinyu Zhao, Xi Ye, Kyle Mahowald, Greg Durrett",2024-09-18 17:55:00+00:00,http://arxiv.org/abs/2409.12183v1,"Chain-of-thought (CoT) via prompting is the de facto method for eliciting
+reasoning capabilities from large language models (LLMs). But for what kinds of
+tasks is this extra ``thinking'' really helpful? To analyze this, we conducted
+a quantitative meta-analysis covering over 100 papers using CoT and ran our own
+evaluations of 20 datasets across 14 models. Our results show that CoT gives
+strong performance benefits primarily on tasks involving math or logic, with
+much smaller gains on other types of tasks. On MMLU, directly generating the
+answer without CoT leads to almost identical accuracy as CoT unless the
+question or model's response contains an equals sign, indicating symbolic
+operations and reasoning. Following this finding, we analyze the behavior of
+CoT on these problems by separating planning and execution and comparing
+against tool-augmented LLMs. Much of CoT's gain comes from improving symbolic
+execution, but it underperforms relative to using a symbolic solver. Our
+results indicate that CoT can be applied selectively, maintaining performance
+while saving inference costs. Furthermore, they suggest a need to move beyond
+prompt-based CoT to new paradigms that better leverage intermediate computation
+across the whole range of LLM applications.",http://arxiv.org/pdf/2409.12183v1,LLM
+Decoding Style: Efficient Fine-Tuning of LLMs for Image-Guided Outfit Recommendation with Preference,"Najmeh Forouzandehmehr, Nima Farrokhsiar, Ramin Giahi, Evren Korpeoglu, Kannan Achan",2024-09-18 17:15:06+00:00,http://arxiv.org/abs/2409.12150v1,"Personalized outfit recommendation remains a complex challenge, demanding
+both fashion compatibility understanding and trend awareness. This paper
+presents a novel framework that harnesses the expressive power of large
+language models (LLMs) for this task, mitigating their ""black box"" and static
+nature through fine-tuning and direct feedback integration. We bridge the item
+visual-textual gap in items descriptions by employing image captioning with a
+Multimodal Large Language Model (MLLM). This enables the LLM to extract style
+and color characteristics from human-curated fashion images, forming the basis
+for personalized recommendations. The LLM is efficiently fine-tuned on the
+open-source Polyvore dataset of curated fashion images, optimizing its ability
+to recommend stylish outfits. A direct preference mechanism using negative
+examples is employed to enhance the LLM's decision-making process. This creates
+a self-enhancing AI feedback loop that continuously refines recommendations in
+line with seasonal fashion trends. Our framework is evaluated on the Polyvore
+dataset, demonstrating its effectiveness in two key tasks: fill-in-the-blank,
+and complementary item retrieval. These evaluations underline the framework's
+ability to generate stylish, trend-aligned outfit suggestions, continuously
+improving through direct feedback. The evaluation results demonstrated that our
+proposed framework significantly outperforms the base LLM, creating more
+cohesive outfits. The improved performance in these tasks underscores the
+proposed framework's potential to enhance the shopping experience with accurate
+suggestions, proving its effectiveness over the vanilla LLM based outfit
+generation.",http://arxiv.org/pdf/2409.12150v1,LLM
+Takin: A Cohort of Superior Quality Zero-shot Speech Generation Models,"EverestAI, :, Sijin Chen, Yuan Feng, Laipeng He, Tianwei He, Wendi He, Yanni Hu, Bin Lin, Yiting Lin, Pengfei Tan, Chengwei Tian, Chen Wang, Zhicheng Wang, Ruoye Xie, Jingjing Yin, Jianhao Ye, Jixun Yao, Quanlei Yan, Yuguang Yang",2024-09-18 17:03:12+00:00,http://arxiv.org/abs/2409.12139v1,"With the advent of the big data and large language model era, zero-shot
+personalized rapid customization has emerged as a significant trend. In this
+report, we introduce Takin AudioLLM, a series of techniques and models, mainly
+including Takin TTS, Takin VC, and Takin Morphing, specifically designed for
+audiobook production. These models are capable of zero-shot speech production,
+generating high-quality speech that is nearly indistinguishable from real human
+speech and facilitating individuals to customize the speech content according
+to their own needs. Specifically, we first introduce Takin TTS, a neural codec
+language model that builds upon an enhanced neural speech codec and a
+multi-task training framework, capable of generating high-fidelity natural
+speech in a zero-shot way. For Takin VC, we advocate an effective content and
+timbre joint modeling approach to improve the speaker similarity, while
+advocating for a conditional flow matching based decoder to further enhance its
+naturalness and expressiveness. Last, we propose the Takin Morphing system with
+highly decoupled and advanced timbre and prosody modeling approaches, which
+enables individuals to customize speech production with their preferred timbre
+and prosody in a precise and controllable manner. Extensive experiments
+validate the effectiveness and robustness of our Takin AudioLLM series models.
+For detailed demos, please refer to https://takinaudiollm.github.io.",http://arxiv.org/pdf/2409.12139v1,LLM
+Fitting Multilevel Factor Models,"Tetiana Parshakova, Trevor Hastie, Stephen Boyd",2024-09-18 15:39:12+00:00,http://arxiv.org/abs/2409.12067v1,"We examine a special case of the multilevel factor model, with covariance
+given by multilevel low rank (MLR) matrix~\cite{parshakova2023factor}. We
+develop a novel, fast implementation of the expectation-maximization (EM)
+algorithm, tailored for multilevel factor models, to maximize the likelihood of
+the observed data. This method accommodates any hierarchical structure and
+maintains linear time and storage complexities per iteration. This is achieved
+through a new efficient technique for computing the inverse of the positive
+definite MLR matrix. We show that the inverse of an invertible PSD MLR matrix
+is also an MLR matrix with the same sparsity in factors, and we use the
+recursive Sherman-Morrison-Woodbury matrix identity to obtain the factors of
+the inverse. Additionally, we present an algorithm that computes the Cholesky
+factorization of an expanded matrix with linear time and space complexities,
+yielding the covariance matrix as its Schur complement. This paper is
+accompanied by an open-source package that implements the proposed methods.",http://arxiv.org/pdf/2409.12067v1,Machine Learning
+Cartan moving frames and the data manifolds,"Eliot Tron, Rita Fioresi, Nicolas Couellan, Stéphane Puechmorel",2024-09-18 15:31:29+00:00,http://arxiv.org/abs/2409.12057v1,"The purpose of this paper is to employ the language of Cartan moving frames
+to study the geometry of the data manifolds and its Riemannian structure, via
+the data information metric and its curvature at data points. Using this
+framework and through experiments, explanations on the response of a neural
+network are given by pointing out the output classes that are easily reachable
+from a given input. This emphasizes how the proposed mathematical relationship
+between the output of the network and the geometry of its inputs can be
+exploited as an explainable artificial intelligence tool.",http://arxiv.org/pdf/2409.12057v1,Machine Learning
+Symmetry-Based Structured Matrices for Efficient Approximately Equivariant Networks,"Ashwin Samudre, Mircea Petrache, Brian D. Nord, Shubhendu Trivedi",2024-09-18 07:52:33+00:00,http://arxiv.org/abs/2409.11772v1,"There has been much recent interest in designing symmetry-aware neural
+networks (NNs) exhibiting relaxed equivariance. Such NNs aim to interpolate
+between being exactly equivariant and being fully flexible, affording
+consistent performance benefits. In a separate line of work, certain structured
+parameter matrices -- those with displacement structure, characterized by low
+displacement rank (LDR) -- have been used to design small-footprint NNs.
+Displacement structure enables fast function and gradient evaluation, but
+permits accurate approximations via compression primarily to classical
+convolutional neural networks (CNNs). In this work, we propose a general
+framework -- based on a novel construction of symmetry-based structured
+matrices -- to build approximately equivariant NNs with significantly reduced
+parameter counts. Our framework integrates the two aforementioned lines of work
+via the use of so-called Group Matrices (GMs), a forgotten precursor to the
+modern notion of regular representations of finite groups. GMs allow the design
+of structured matrices -- resembling LDR matrices -- which generalize the
+linear operations of a classical CNN from cyclic groups to general finite
+groups and their homogeneous spaces. We show that GMs can be employed to extend
+all the elementary operations of CNNs to general discrete groups. Further, the
+theory of structured matrices based on GMs provides a generalization of LDR
+theory focussed on matrices with cyclic structure, providing a tool for
+implementing approximate equivariance for discrete groups. We test GM-based
+architectures on a variety of tasks in the presence of relaxed symmetry. We
+report that our framework consistently performs competitively compared to
+approximately equivariant NNs, and other structured matrix-based compression
+frameworks, sometimes with a one or two orders of magnitude lower parameter
+count.",http://arxiv.org/pdf/2409.11772v1,Machine Learning
+Towards Interpretable End-Stage Renal Disease (ESRD) Prediction: Utilizing Administrative Claims Data with Explainable AI Techniques,"Yubo Li, Saba Al-Sayouri, Rema Padman",2024-09-18 16:03:57+00:00,http://arxiv.org/abs/2409.12087v1,"This study explores the potential of utilizing administrative claims data,
+combined with advanced machine learning and deep learning techniques, to
+predict the progression of Chronic Kidney Disease (CKD) to End-Stage Renal
+Disease (ESRD). We analyze a comprehensive, 10-year dataset provided by a major
+health insurance organization to develop prediction models for multiple
+observation windows using traditional machine learning methods such as Random
+Forest and XGBoost as well as deep learning approaches such as Long Short-Term
+Memory (LSTM) networks. Our findings demonstrate that the LSTM model,
+particularly with a 24-month observation window, exhibits superior performance
+in predicting ESRD progression, outperforming existing models in the
+literature. We further apply SHapley Additive exPlanations (SHAP) analysis to
+enhance interpretability, providing insights into the impact of individual
+features on predictions at the individual patient level. This study underscores
+the value of leveraging administrative claims data for CKD management and
+predicting ESRD progression.",http://arxiv.org/pdf/2409.12087v1,XAI
+MonoKAN: Certified Monotonic Kolmogorov-Arnold Network,"Alejandro Polo-Molina, David Alfaya, Jose Portela",2024-09-17 11:10:59+00:00,http://arxiv.org/abs/2409.11078v1,"Artificial Neural Networks (ANNs) have significantly advanced various fields
+by effectively recognizing patterns and solving complex problems. Despite these
+advancements, their interpretability remains a critical challenge, especially
+in applications where transparency and accountability are essential. To address
+this, explainable AI (XAI) has made progress in demystifying ANNs, yet
+interpretability alone is often insufficient. In certain applications, model
+predictions must align with expert-imposed requirements, sometimes exemplified
+by partial monotonicity constraints. While monotonic approaches are found in
+the literature for traditional Multi-layer Perceptrons (MLPs), they still face
+difficulties in achieving both interpretability and certified partial
+monotonicity. Recently, the Kolmogorov-Arnold Network (KAN) architecture, based
+on learnable activation functions parametrized as splines, has been proposed as
+a more interpretable alternative to MLPs. Building on this, we introduce a
+novel ANN architecture called MonoKAN, which is based on the KAN architecture
+and achieves certified partial monotonicity while enhancing interpretability.
+To achieve this, we employ cubic Hermite splines, which guarantee monotonicity
+through a set of straightforward conditions. Additionally, by using positive
+weights in the linear combinations of these splines, we ensure that the network
+preserves the monotonic relationships between input and output. Our experiments
+demonstrate that MonoKAN not only enhances interpretability but also improves
+predictive performance across the majority of benchmarks, outperforming
+state-of-the-art monotonic MLP approaches.",http://arxiv.org/pdf/2409.11078v1,XAI
+Trustworthy Conceptual Explanations for Neural Networks in Robot Decision-Making,"Som Sagar, Aditya Taparia, Harsh Mankodiya, Pranav Bidare, Yifan Zhou, Ransalu Senanayake",2024-09-16 21:11:12+00:00,http://arxiv.org/abs/2409.10733v1,"Black box neural networks are an indispensable part of modern robots.
+Nevertheless, deploying such high-stakes systems in real-world scenarios poses
+significant challenges when the stakeholders, such as engineers and legislative
+bodies, lack insights into the neural networks' decision-making process.
+Presently, explainable AI is primarily tailored to natural language processing
+and computer vision, falling short in two critical aspects when applied in
+robots: grounding in decision-making tasks and the ability to assess
+trustworthiness of their explanations. In this paper, we introduce a
+trustworthy explainable robotics technique based on human-interpretable,
+high-level concepts that attribute to the decisions made by the neural network.
+Our proposed technique provides explanations with associated uncertainty scores
+by matching neural network's activations with human-interpretable
+visualizations. To validate our approach, we conducted a series of experiments
+with various simulated and real-world robot decision-making models,
+demonstrating the effectiveness of the proposed approach as a post-hoc,
+human-friendly robot learning diagnostic tool.",http://arxiv.org/pdf/2409.10733v1,XAI
