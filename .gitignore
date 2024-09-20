@@ -163,3 +163,4 @@ cython_debug/
 
 cohere_apikey.json
 openai_apikey.json
+webhook_url.json
