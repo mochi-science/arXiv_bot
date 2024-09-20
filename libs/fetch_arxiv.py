@@ -77,5 +77,7 @@ def fetch_papers_from_arxiv(search_query=None, max_results=3, csv_filename = "da
         updated_papers_df.to_csv(csv_filename, index=False)
 
         # print(f"{len(new_papers_list)} 件の新しい論文を追加しました。")
+    else:
+        new_papers_df = pd.DataFrame(columns=["Title", "Authors", "Published", "URL", "Abstract", "PDF"])
 
     return new_papers_df
