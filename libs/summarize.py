@@ -18,7 +18,7 @@ def get_summary_by_gpt(api_key: str, df_papers: pd.DataFrame) -> dict:
     # リクエストのプロンプトを作成する
     prompt = "論文の概要を日本語でそれぞれ要約して。要約文のみ出力。"
     prompt += "出力例：pythonのlist形式。"
-    prompt += str(df_papers["Abstract"][:2].to_list())
+    prompt += str(df_papers["Abstract"].to_list())
 
     # OpenAI API にリクエストを送信する
     completion = client.chat.completions.create(
