@@ -159,3 +159,166 @@ visualizations. To validate our approach, we conducted a series of experiments
 with various simulated and real-world robot decision-making models,
 demonstrating the effectiveness of the proposed approach as a post-hoc,
 human-friendly robot learning diagnostic tool.",http://arxiv.org/pdf/2409.10733v1,XAI
+LLM Echo Chamber: personalized and automated disinformation,Tony Ma,2024-09-24 17:04:12+00:00,http://arxiv.org/abs/2409.16241v1,"Recent advancements have showcased the capabilities of Large Language Models
+like GPT4 and Llama2 in tasks such as summarization, translation, and content
+review. However, their widespread use raises concerns, particularly around the
+potential for LLMs to spread persuasive, humanlike misinformation at scale,
+which could significantly influence public opinion. This study examines these
+risks, focusing on LLMs ability to propagate misinformation as factual. To
+investigate this, we built the LLM Echo Chamber, a controlled digital
+environment simulating social media chatrooms, where misinformation often
+spreads. Echo chambers, where individuals only interact with like minded
+people, further entrench beliefs. By studying malicious bots spreading
+misinformation in this environment, we can better understand this phenomenon.
+We reviewed current LLMs, explored misinformation risks, and applied sota
+finetuning techniques. Using Microsoft phi2 model, finetuned with our custom
+dataset, we generated harmful content to create the Echo Chamber. This setup,
+evaluated by GPT4 for persuasiveness and harmfulness, sheds light on the
+ethical concerns surrounding LLMs and emphasizes the need for stronger
+safeguards against misinformation.",http://arxiv.org/pdf/2409.16241v1,LLM
+Towards Enhancing Linked Data Retrieval in Conversational UIs using Large Language Models,"Omar Mussa, Omer Rana, Benoît Goossens, Pablo Orozco-Terwengel, Charith Perera",2024-09-24 16:31:33+00:00,http://arxiv.org/abs/2409.16220v1,"Despite the recent broad adoption of Large Language Models (LLMs) across
+various domains, their potential for enriching information systems in
+extracting and exploring Linked Data (LD) and Resource Description Framework
+(RDF) triplestores has not been extensively explored. This paper examines the
+integration of LLMs within existing systems, emphasising the enhancement of
+conversational user interfaces (UIs) and their capabilities for data extraction
+by producing more accurate SPARQL queries without the requirement for model
+retraining. Typically, conversational UI models necessitate retraining with the
+introduction of new datasets or updates, limiting their functionality as
+general-purpose extraction tools. Our approach addresses this limitation by
+incorporating LLMs into the conversational UI workflow, significantly enhancing
+their ability to comprehend and process user queries effectively. By leveraging
+the advanced natural language understanding capabilities of LLMs, our method
+improves RDF entity extraction within web systems employing conventional
+chatbots. This integration facilitates a more nuanced and context-aware
+interaction model, critical for handling the complex query patterns often
+encountered in RDF datasets and Linked Open Data (LOD) endpoints. The
+evaluation of this methodology shows a marked enhancement in system
+expressivity and the accuracy of responses to user queries, indicating a
+promising direction for future research in this area. This investigation not
+only underscores the versatility of LLMs in enhancing existing information
+systems but also sets the stage for further explorations into their potential
+applications within more specialised domains of web information systems.",http://arxiv.org/pdf/2409.16220v1,LLM
+CJEval: A Benchmark for Assessing Large Language Models Using Chinese Junior High School Exam Data,"Qianwen Zhang, Haochen Wang, Fang Li, Siyu An, Lingfeng Qiao, Liangcai Gao, Di Yin, Xing Sun",2024-09-24 16:00:28+00:00,http://arxiv.org/abs/2409.16202v1,"Online education platforms have significantly transformed the dissemination
+of educational resources by providing a dynamic and digital infrastructure.
+With the further enhancement of this transformation, the advent of Large
+Language Models (LLMs) has elevated the intelligence levels of these platforms.
+However, current academic benchmarks provide limited guidance for real-world
+industry scenarios. This limitation arises because educational applications
+require more than mere test question responses. To bridge this gap, we
+introduce CJEval, a benchmark based on Chinese Junior High School Exam
+Evaluations. CJEval consists of 26,136 samples across four application-level
+educational tasks covering ten subjects. These samples include not only
+questions and answers but also detailed annotations such as question types,
+difficulty levels, knowledge concepts, and answer explanations. By utilizing
+this benchmark, we assessed LLMs' potential applications and conducted a
+comprehensive analysis of their performance by fine-tuning on various
+educational tasks. Extensive experiments and discussions have highlighted the
+opportunities and challenges of applying LLMs in the field of education.",http://arxiv.org/pdf/2409.16202v1,LLM
+Second Order Bounds for Contextual Bandits with Function Approximation,Aldo Pacchiano,2024-09-24 15:42:04+00:00,http://arxiv.org/abs/2409.16197v1,"Many works have developed algorithms no-regret algorithms for contextual
+bandits with function approximation, where the mean rewards over context-action
+pairs belongs to a function class. Although there are many approaches to this
+problem, one that has gained in importance is the use of algorithms based on
+the optimism principle such as optimistic least squares. It can be shown the
+regret of this algorithm scales as square root of the product of the eluder
+dimension (a statistical measure of the complexity of the function class), the
+logarithm of the function class size and the time horizon. Unfortunately, even
+if the variance of the measurement noise of the rewards at each time is
+changing and is very small, the regret of the optimistic least squares
+algorithm scales with square root of the time horizon. In this work we are the
+first to develop algorithms that satisfy regret bounds of scaling not with the
+square root of the time horizon, but the square root of the sum of the
+measurement variances in the setting of contextual bandits with function
+approximation when the variances are unknown. These bounds generalize existing
+techniques for deriving second order bounds in contextual linear problems.",http://arxiv.org/pdf/2409.16197v1,Machine Learning
+A decision-theoretic model for a principal-agent collaborative learning problem,Getachew K Befekadu,2024-09-24 13:08:51+00:00,http://arxiv.org/abs/2409.16068v1,"In this technical note, we consider a collaborative learning framework with
+principal-agent setting, in which the principal at each time-step determines a
+set of appropriate aggregation coefficients based on how the current parameter
+estimates from a group of $K$ agents effectively performed in connection with a
+separate test dataset, which is not part of the agents' training model
+datasets. Whereas, the agents, who act together as a team, then update their
+parameter estimates using a discrete-time version of Langevin dynamics with
+mean-field-like interaction term, but guided by their respective different
+training model datasets. Here, we propose a decision-theoretic framework that
+explicitly describes how the principal progressively determines a set of
+nonnegative and sum to one aggregation coefficients used by the agents in their
+mean-field-like interaction term, that eventually leading them to reach a
+consensus optimal parameter estimate. Interestingly, due to the inherent
+feedbacks and cooperative behavior among the agents, the proposed framework
+offers some advantages in terms of stability and generalization, despite that
+both the principal and the agents do not necessarily need to have any knowledge
+of the sample distributions or the quality of each others' datasets.",http://arxiv.org/pdf/2409.16068v1,Machine Learning
+Adaptive Learn-then-Test: Statistically Valid and Efficient Hyperparameter Selection,"Matteo Zecchin, Osvaldo Simeone",2024-09-24 08:14:26+00:00,http://arxiv.org/abs/2409.15844v1,"We introduce adaptive learn-then-test (aLTT), an efficient hyperparameter
+selection procedure that provides finite-sample statistical guarantees on the
+population risk of AI models. Unlike the existing learn-then-test (LTT)
+technique, which relies on conventional p-value-based multiple hypothesis
+testing (MHT), aLTT implements sequential data-dependent MHT with early
+termination by leveraging e-processes. As a result, aLTT can reduce the number
+of testing rounds, making it particularly well-suited for scenarios in which
+testing is costly or presents safety risks. Apart from maintaining statistical
+validity, in applications such as online policy selection for offline
+reinforcement learning and hyperparameter tuning for engineering systems, aLTT
+is shown to achieve the same performance as LTT while requiring only a fraction
+of the testing rounds.",http://arxiv.org/pdf/2409.15844v1,Machine Learning
+Explainable AI needs formal notions of explanation correctness,"Stefan Haufe, Rick Wilming, Benedict Clark, Rustam Zhumagambetov, Danny Panknin, Ahcène Boubekki",2024-09-22 20:47:04+00:00,http://arxiv.org/abs/2409.14590v1,"The use of machine learning (ML) in critical domains such as medicine poses
+risks and requires regulation. One requirement is that decisions of ML systems
+in high-risk applications should be human-understandable. The field of
+""explainable artificial intelligence"" (XAI) seemingly addresses this need.
+However, in its current form, XAI is unfit to provide quality control for ML;
+it itself needs scrutiny. Popular XAI methods cannot reliably answer important
+questions about ML models, their training data, or a given test input. We
+recapitulate results demonstrating that popular XAI methods systematically
+attribute importance to input features that are independent of the prediction
+target. This limits their utility for purposes such as model and data
+(in)validation, model improvement, and scientific discovery. We argue that the
+fundamental reason for this limitation is that current XAI methods do not
+address well-defined problems and are not evaluated against objective criteria
+of explanation correctness. Researchers should formally define the problems
+they intend to solve first and then design methods accordingly. This will lead
+to notions of explanation correctness that can be theoretically verified and
+objective metrics of explanation performance that can be assessed using
+ground-truth data.",http://arxiv.org/pdf/2409.14590v1,XAI
+An Adaptive End-to-End IoT Security Framework Using Explainable AI and LLMs,"Sudipto Baral, Sajal Saha, Anwar Haque",2024-09-20 03:09:23+00:00,http://arxiv.org/abs/2409.13177v1,"The exponential growth of the Internet of Things (IoT) has significantly
+increased the complexity and volume of cybersecurity threats, necessitating the
+development of advanced, scalable, and interpretable security frameworks. This
+paper presents an innovative, comprehensive framework for real-time IoT attack
+detection and response that leverages Machine Learning (ML), Explainable AI
+(XAI), and Large Language Models (LLM). By integrating XAI techniques such as
+SHAP (SHapley Additive exPlanations) and LIME (Local Interpretable
+Model-agnostic Explanations) with a model-independent architecture, we ensure
+our framework's adaptability across various ML algorithms. Additionally, the
+incorporation of LLMs enhances the interpretability and accessibility of
+detection decisions, providing system administrators with actionable,
+human-understandable explanations of detected threats. Our end-to-end framework
+not only facilitates a seamless transition from model development to deployment
+but also represents a real-world application capability that is often lacking
+in existing research. Based on our experiments with the CIC-IOT-2023 dataset
+\cite{neto2023ciciot2023}, Gemini and OPENAI LLMS demonstrate unique strengths
+in attack mitigation: Gemini offers precise, focused strategies, while OPENAI
+provides extensive, in-depth security measures. Incorporating SHAP and LIME
+algorithms within XAI provides comprehensive insights into attack detection,
+emphasizing opportunities for model improvement through detailed feature
+analysis, fine-tuning, and the adaptation of misclassifications to enhance
+accuracy.",http://arxiv.org/pdf/2409.13177v1,XAI
+Explainable AI for Autism Diagnosis: Identifying Critical Brain Regions Using fMRI Data,"Suryansh Vidya, Kush Gupta, Amir Aly, Andy Wills, Emmanuel Ifeachor, Rohit Shankar",2024-09-19 23:08:09+00:00,http://arxiv.org/abs/2409.15374v1,"Early diagnosis and intervention for Autism Spectrum Disorder (ASD) has been
+shown to significantly improve the quality of life of autistic individuals.
+However, diagnostics methods for ASD rely on assessments based on clinical
+presentation that are prone to bias and can be challenging to arrive at an
+early diagnosis. There is a need for objective biomarkers of ASD which can help
+improve diagnostic accuracy. Deep learning (DL) has achieved outstanding
+performance in diagnosing diseases and conditions from medical imaging data.
+Extensive research has been conducted on creating models that classify ASD
+using resting-state functional Magnetic Resonance Imaging (fMRI) data. However,
+existing models lack interpretability. This research aims to improve the
+accuracy and interpretability of ASD diagnosis by creating a DL model that can
+not only accurately classify ASD but also provide explainable insights into its
+working. The dataset used is a preprocessed version of the Autism Brain Imaging
+Data Exchange (ABIDE) with 884 samples. Our findings show a model that can
+accurately classify ASD and highlight critical brain regions differing between
+ASD and typical controls, with potential implications for early diagnosis and
+understanding of the neural basis of ASD. These findings are validated by
+studies in the literature that use different datasets and modalities,
+confirming that the model actually learned characteristics of ASD and not just
+the dataset. This study advances the field of explainable AI in medical imaging
+by providing a robust and interpretable model, thereby contributing to a future
+with objective and reliable ASD diagnostics.",http://arxiv.org/pdf/2409.15374v1,XAI
